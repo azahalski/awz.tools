@@ -9,7 +9,6 @@ $module_id = array_pop($dirs);
 unset($dirs);
 Loc::loadMessages(__FILE__);
 
-if(!Loader::includeModule('awz.admin')) return;
 if(!Loader::includeModule($module_id)) return;
 
 $POST_RIGHT = $APPLICATION->GetGroupRight($module_id);
