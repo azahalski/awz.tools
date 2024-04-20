@@ -1,5 +1,0 @@
-*__pycache__*
-.idea
-dist/update
-node_modules
-/package-lock.json
