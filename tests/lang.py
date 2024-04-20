@@ -1,6 +1,6 @@
 import sys
 sys.path.append("../")
-from build.tools import *
+from bxbuild.tools import *
 import re
 
 args = sys.argv
@@ -9,7 +9,7 @@ if len(args) == 1:
     modes.add('--dep')
     modes.add('--unknown')
     modes.add('--notfound')
-    #modes.add('--nousage')
+    modes.add('--nousage')
 else:
     for _ in args[1:]:
         modes.add(_)
