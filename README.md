@@ -3,6 +3,6 @@
 <!-- cl-start -->
 ## История версий
 
-https://github.com/zahalski/awz.tools/blob/master/CHANGELOG.md
+https://github.com/azahalski/awz.tools/blob/master/CHANGELOG.md
 
 <!-- cl-end -->
